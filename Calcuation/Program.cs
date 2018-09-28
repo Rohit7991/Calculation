@@ -12,13 +12,17 @@ namespace Calcuation
         {
             double a = 5;
             double b = 10;
-            double sum = add(a, b);
+            double sum = Add(a, b);
             Console.WriteLine("sum = {0}", sum);
         }
 
-        static double add(double a, double b)
+        static double Add(double a, double b)
         {
             return a + b;
+        }
+        static double Multiply(double a, double b)
+        {
+            return (a * b);
         }
     }
 }
