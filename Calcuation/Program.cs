@@ -12,13 +12,20 @@ namespace Calcuation
         {
             double a = 5;
             double b = 10;
-            double sum = add(a, b);
-            Console.WriteLine("sum = {0}", sum);
+            double sum = Add(a, b);
+            double diff = Sub(a, b);
+            Console.WriteLine("sum ={0}", sum);
+            Console.WriteLine("diff ={0}", diff);
+
         }
 
-        static double add(double a, double b)
+        static double Add(double a, double b)
         {
             return a + b;
+        }
+        static double Sub(double a, double b)
+        {
+            return a - b;
         }
     }
 }
