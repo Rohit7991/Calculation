@@ -14,18 +14,25 @@ namespace Calcuation
             double b = 10;
             double sum = Add(a, b);
             double diff = Sub(a, b);
+            double pro = Mul(a, b);
             Console.WriteLine("sum ={0}", sum);
             Console.WriteLine("diff ={0}", diff);
-
+            Console.WriteLine("pro ={0}", pro);
         }
-
         static double Add(double a, double b)
         {
             return a + b;
         }
+
         static double Sub(double a, double b)
         {
             return a - b;
+        }
+
+        static double Mul(double a, double b)
+        {
+            return (a * b);
+
         }
     }
 }
